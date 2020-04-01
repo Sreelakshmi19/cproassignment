@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    char charname[] = "Bruno";
+    int charage = 2;
+    char phrase[] = "pedigree";
+    printf("My pet's name is %s\n",charname);
+    printf("%s is %d years old\n",charname, charage);
+    printf("His favourite food is %s\n",phrase);
+    
+    return 0;
+    
+}
