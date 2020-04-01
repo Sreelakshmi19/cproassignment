@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    char charname[] = "Riya";
+    int charage = 17;
+    float marks = 55.3;
+    printf("Name   : %s\n", charname);
+    printf("School : DB high school\n");
+    printf("Age    : %d\n", charage);
+    printf("Class  : 10\n");
+    printf("Marks  : %f\n",marks);
+    
+    return 0;
+        
+        
+}
