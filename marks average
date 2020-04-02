@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    char name[] = "Riya";
+    float eng, chem, maths;
+    float total , average;
+    
+    printf("Name ofstudent :%s\n", name);
+   
+    
+    /*input marks of three subjects */
+    printf("Enter the marks of 3 subjects: \n");
+    scanf("%f%f%f",&eng, &chem, &maths);
+    
+    /*calculate total and average*/
+    total = eng + chem + maths;
+    average = total / 3.0 ;
+    
+    /*print all results*/
+    printf("Total marks : %f \n",total);
+    printf("Average marks :%f \n", average);
+    return 0;
+}
