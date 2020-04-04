@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main()
+{
+  int age;
+    printf("Enter the age of the person: \n", age);
+    scanf("%d",&age);
+    
+    if(age>=60)
+    {
+        if(age>=50)
+        {
+            printf("Rs.10000");
+        }
+        else 
+        {
+            printf("Rs.5000");
+        }
+    }
+    else 
+    {
+        if(age<50)
+        {
+            printf("Rs.0");
+        }
+        else
+        {
+            printf("Rs.5000");
+        }
+    }
+    return 0;
+        
+}
+   
