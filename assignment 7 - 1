@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    float da , ta , basicsalary, netsalary;
+    
+    printf("Enter the basic salary :\n",basicsalary);
+    scanf("%f",&basicsalary);
+   
+    da = (basicsalary*10)/100 ;
+    ta = (basicsalary*12)/100;
+    netsalary = basicsalary + da +ta;
+    
+    printf("Net salary =%f \n",netsalary);
+    
+    return 0;
+}
