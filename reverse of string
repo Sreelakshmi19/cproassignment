@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    char str[100];
+    int i,l;
+    printf("Enter the string:\n");
+    
+    gets(str);
+    l=strlen(str);
+    
+    printf("Reverse of string:\n",str);
+    for(i=l-1;i>=0;i--)
+    {
+        printf("%c",str[i]);
+    }
+    return 0;
+}
