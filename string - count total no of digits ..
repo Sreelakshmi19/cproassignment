@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char str[100];
+    int i,c1=0,c2=0,c3=0,c4=0;
+    printf("Enter the string:\n");
+    gets(str);
+    for(i=0;str[i]!='\0';i++)
+    {
+        if(str[i]>=65 && str[i]<=90||str[i]>=97 && str[i]<=122)
+            c1++;
+        else if(str[i]>=47 && str[i]<=57)
+               c2++;
+        else if(str[i]==32)
+            c3++;
+        else
+            c4++;
+    }
+    printf("Alphabets:%d\n",c1);
+    printf("Digits:%d\n",c2);
+    printf("Spaces:%d\n",c3);
+    printf("Special chracters:%d\n",c4);
+    return 0;
+}
+    
